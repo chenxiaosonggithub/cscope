@@ -28,4 +28,16 @@ core
 # CVS default ignores end
 autom4te.cache
 stamp-h1
-.cvsignore
+INSTALL
+Makefile.in
+compile
+config.guess
+config.h.in
+config.sub
+depcomp
+install-sh
+missing
+mkinstalldirs
+ylwrap
+configure
+aclocal.m4
