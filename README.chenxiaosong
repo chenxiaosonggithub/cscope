@@ -1,0 +1,18 @@
+Already merged branch 'master'(eaea31cb93ec) and 'no_generated_files_in_repo'(9c49a74d7ac1).
+
+```shell
+# ubuntu/raspberry-pi build environment
+sudo apt-get install autoconf -y
+sudo apt install libncurses5-dev -y
+sudo apt-get install flex bison -y
+
+# fedora build environment
+sudo dnf install ncurses-devel ncurses -y
+
+# build
+autoreconf -f -i
+mkdir build
+cd build
+../configure --prefix=/path/to/install
+make
+```
