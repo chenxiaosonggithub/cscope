@@ -921,7 +921,7 @@ Must end with a newline.")
     (define-key cscope-list-entry-keymap [mouse-2] 'cscope-mouse-select-entry-other-window))
   (define-key cscope-list-entry-keymap [return] 'cscope-select-entry-other-window)
   ;; \r is for Emacs:
-  (define-key cscope-list-entry-keymap "\r" 'cscope-select-entry-other-window)
+  (define-key cscope-list-entry-keymap "j" 'cscope-select-entry-other-window)
   (define-key cscope-list-entry-keymap " " 'cscope-show-entry-other-window)
   (define-key cscope-list-entry-keymap "o" 'cscope-select-entry-one-window)
   (define-key cscope-list-entry-keymap "q" 'cscope-bury-buffer)
